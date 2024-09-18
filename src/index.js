@@ -1,3 +1,3 @@
-import { initializeKafka } from "./kafka/setupKafka.js";
+import { initializeKafka, sendMessage } from "./kafka/setupKafka.js";
 
-module.exports = initializeKafka;
+module.exports = { initializeKafka, sendMessage};
