@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nivkman/kafka-node-handler/issues"
   },
-  "homepage": "https://github.com/nivkman/kafka-node-handler#readme"
+  "homepage": "https://github.com/nivkman/kafka-node-handler#readme",
+  "dependencies": {
+    "kafka": "^0.2.3"
+  }
 }
