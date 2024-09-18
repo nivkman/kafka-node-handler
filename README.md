@@ -13,7 +13,7 @@ A lightweight and easy-to-use Kafka handler for Node.js applications. This packa
 ## 📦 Installation
 
 ```bash
-npm install kafka-nodejs-handler
+npm install kafka-node-handler
 ```
 
 ## 🚀 Usage
@@ -23,7 +23,7 @@ npm install kafka-nodejs-handler
 To set up the Kafka handler, use the `initializeKafka` function:
 
 ```javascript
-import { initializeKafka } from 'kafka-nodejs-handler';
+import { initializeKafka } from 'kafka-node-handler';
 
 initializeKafka({
   topic: process.env.TOPIC,
@@ -43,7 +43,7 @@ function handleNewMessage({ routingKey, event }) {
 To send messages, use the `sendMessage` function:
 
 ```javascript
-import { sendMessage } from 'kafka-nodejs-handler';
+import { sendMessage } from 'kafka-node-handler';
 
 await sendMessage('messageKey', { your: 'message', data: 'here' });
 ```
