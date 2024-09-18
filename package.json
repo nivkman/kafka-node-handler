@@ -1,0 +1,19 @@
+{
+  "name": "kafka-node-handler",
+  "version": "1.0.0",
+  "description": "A lightweight and easy-to-use Kafka handler for Node.js applications. This package provides a simple interface for setting up Kafka consumers and producers, making it easy to integrate Kafka messaging into your Node.js projects.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nivkman/kafka-node-handler.git"
+  },
+  "author": "Niv Kaufman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nivkman/kafka-node-handler/issues"
+  },
+  "homepage": "https://github.com/nivkman/kafka-node-handler#readme"
+}
